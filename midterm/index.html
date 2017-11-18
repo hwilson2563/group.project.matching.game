@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Ubuntu+Condensed" rel="stylesheet">
+        <title>Midterm Project</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="title">
+            <h1>Match Maker</h1>
+            <p id="scoreBoard"> </p>
+            <p id="totalClicks"></p>
+        </div>
+        <div class="container">
+	        <div class="cardHolder">
+	            <div class="back" ><img src="images/ufo_card.jpg"></div>
+	            <div class="back" ><img src="images/ufo_card.jpg"></div>
+	            <div class="back" ><img src="images/planet_card.jpg"></div>
+	            <div class="back" ><img src="images/planet_card.jpg"></div>
+	            <div class="back" ><img src="images/rocketship_card.jpg"></div>
+	            <div class="back" ><img src="images/rocketship_card.jpg"></div>
+	            <div class="back" ><img src="images/alien_card.jpg"></div>
+	            <div class="back" ><img src="images/alien_card.jpg"></div>
+	            <div class="back" ><img src="images/asteroid_card.jpg"></div>
+	            <div class="back" ><img src="images/asteroid_card.jpg"></div>
+	            <div class="back" ><img src="images/foilhat_card.jpg"></div>
+                <div class="back" ><img src="images/foilhat_card.jpg"></div>
+	        </div>
+    	</div>
+    	<div class="container">
+        	<button type="button" id="reset">RESET</button>
+        </div>
+        <div id="startScreen">
+            <h1>Match Maker</h1>
+            <p>Turn over two cards. If you find a match, the cards will be removed from the board. If they're not a match, try again!</p>
+            <button type="button" id="start">START</button>
+        </div>
+	<div id="winScreen">
+            <h1>Winner: You're a star!</h1>
+            <p>You've stopped the alien invasion and have prevented humankind from being abducted!</p>
+            <p>Want to save planet earth again?</p>
+            <button type="button" class="playAgain">START</button>
+        </div>
+    <div id="loseScreen">
+        <h1>Pathetic, earthling! You've been abducted and human kind is DOOMED!</h1>
+        <button type="button" class="playAgain">Try Again</button>
+    </div>
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
